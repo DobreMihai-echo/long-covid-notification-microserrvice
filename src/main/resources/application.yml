@@ -22,12 +22,6 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
-
-twilio:
-  account_sid: AC1bb33bc33395b61eacb1d1392bc41c34
-  auth_token: 8cfec63e04ea95f51d2a39c8328bd8e5
-  trial_number: +13344713348
-
 #Actuator Prometheus Endpoint
 management:
   endpoint:
